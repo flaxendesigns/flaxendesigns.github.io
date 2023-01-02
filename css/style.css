@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@300&display=swap');
+
+
+*{
+    font-family: Poppins;
+}
+
+h1, h2, h3,h4,h5 {
+    font-family: Kodchasan;
+    font-weight: bold;
+}
+.container-fluid h3{
+    font-weight: bold;
+}
+
+.container h3{
+    font-weight: bold;
+    color: #083171;
+}
+
+#vision {
+    font-size: 18px;
+    text-align: justify;
+}
+
+#footer {
+    background-color: #c08a7a;
+    color: black;
+    border: 12px;
+    border-color: black;
+}
+
+#copyright {
+    font-size: small;
+}
+
+.nav-link {
+    font-family: Kodchasan;
+    font-weight: bold;
+}
+
+#order {
+    font-family: Kodchasan;
+    font-weight: bold;
+    color:white;
+    border:2px;
+    border-color: black;
+    background-color: #c08a7a;
+}
+
+.container h3{
+    color:#c08a7a;
+    text-decoration: underline;
+}
+
+.img-thumbnail {
+    border:4px;
+    border-color: #af877a;
+    border-radius: 15px;
+}
+
+.catalog-items a{
+    color:#c08a7a;
+    text-decoration: none;
+}
+
+#social-media a {
+    text-decoration: none;
+    color: black;
+
+}
+/* Small devices (landscape phones, 320px and up) */
+@media (min-width: 320px) { 
+   
+ }
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+   
+ }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    #nav-box {
+        margin-left: 250px;
+    }
+}
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+   #nav-box {
+    margin-left: 450px;
+   }
+ }
