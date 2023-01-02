@@ -44,7 +44,6 @@ h1, h2, h3,h4,h5 {
     font-family: Kodchasan;
     font-weight: bold;
     color:white;
-    border:2px;
     border-color: black;
     background-color: #c08a7a;
 }
@@ -70,22 +69,27 @@ h1, h2, h3,h4,h5 {
     color: black;
 
 }
+
 /* Small devices (landscape phones, 320px and up) */
 @media (min-width: 320px) { 
-   
+
+    .col a h5 {
+        font-size: 15px;
+    }
+ 
  }
 
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-   
+    
  }
 
  /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
     #nav-box {
         margin-left: 250px;
-    }
+    } 
 }
 
  /* Extra large devices (large desktops, 1200px and up) */
