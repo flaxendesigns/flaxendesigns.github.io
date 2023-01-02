@@ -69,18 +69,12 @@ h1, h2, h3,h4,h5 {
     color: black;
 
 }
-.col a h5 {
-    margin-left: 5px;
-}
 
 /* Small devices (landscape phones, 320px and up) */
 @media (min-width: 320px) { 
 
     .col a h5 {
         font-size: 15px;
-    }
-    #copyright {
-        font-size: smaller;
     }
  
  }
