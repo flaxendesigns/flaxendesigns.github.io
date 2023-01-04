@@ -31,8 +31,10 @@ h1, h2, h3,h4,h5 {
     border-color: black;
 }
 
-#copyright {
+#copyright p {
     font-size: small;
+    float: right;
+    color: white;
 }
 
 .nav-link {
@@ -67,7 +69,7 @@ h1, h2, h3,h4,h5 {
 
 #social-media a {
     text-decoration: none;
-    color: black;
+    color: white;
 
 }
 
