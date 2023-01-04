@@ -73,17 +73,19 @@ h1, h2, h3,h4,h5 {
 }
 
 #why-us a img {
-
     width: 50px;
-
 }
+
+#about-sec-1 {
+    margin-top: 200px;
+}
+#about-sec-2 {
+    margin-top: 100px;
+}
+
 /* Small devices (landscape phones, 320px and up) */
 @media (min-width: 320px) {
     
-    .col a h5 {
-        font-size: 17px;
-    }
-   
  }
 
 
